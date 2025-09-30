@@ -9,6 +9,21 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.14.1"
+    "@astrojs/react": "^4.4.0",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@uiw/react-json-view": "^2.0.0-alpha.39",
+    "antd": "^5.27.4",
+    "astro": "^5.14.1",
+    "lucide-react": "^0.544.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.13",
+    "transle": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/langmap": "^0.0.3",
+    "langmap": "^0.0.16"
   }
 }
