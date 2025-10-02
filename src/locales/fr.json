@@ -1,0 +1,16 @@
+{
+  "header": {
+    "welcome": "Ravi de vous voir"
+  },
+  "hero": {
+    "slogan": "Traduisez, interpolez et conquérez le monde"
+  },
+  "guide": {
+    "create": "Créez un dossier 'locales' dans le répertoire src",
+    "step2": "Initialisez i18n de manière synchrone avant le démarrage de l’application",
+    "enjoy": "Profitez-en pleinement dans votre projet"
+  },
+  "footer": {
+    "intro": "Bonjour, je suis Hoang Nam — il s'agit d'un projet passionné conçu pour vous aider à écrire un code plus propre et sans répétition. Je suis également disponible pour des missions freelance web. Je vous souhaite une journée productive !"
+  }
+}

@@ -6,9 +6,9 @@
     "slogan": "Translate, interpolate, and go global"
   },
   "guide": {
-    "create": "Create folder locales in public folder",
-    "step2": "Initialize i18n using top-level await before the app starts",
-    "enjoy": "Enjoy it (usage)"
+    "create": "Create a 'locales' folder inside the src directory",
+    "step2": "Initialize i18n synchronously before the application starts",
+    "enjoy": "Enjoy using it in your project"
   },
   "footer": {
     "intro": "Hi, I'm Hoang Nam — this is a passion project designed to help you write cleaner, boilerplate-free code. I'm also open to freelance web opportunities. Wishing you a productive day!"

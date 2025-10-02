@@ -17,10 +17,11 @@
     "antd": "^5.27.4",
     "astro": "^5.14.1",
     "lucide-react": "^0.544.0",
+    "motion": "^12.23.22",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "tailwindcss": "^4.1.13",
-    "transle": "^1.0.0"
+    "transle": "^1.0.5"
   },
   "devDependencies": {
     "@types/langmap": "^0.0.3",

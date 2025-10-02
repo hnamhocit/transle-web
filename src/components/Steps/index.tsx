@@ -1,9 +1,10 @@
 import React from 'react';
 import {useI18nStore, useT} from "transle";
 
-import vi from '../../../public/locales/vi.json'
-import en from '../../../public/locales/en.json'
-import fr from '../../../public/locales/fr.json'
+import vi from '../../locales/vi.json'
+import en from '../../locales/en.json'
+import fr from '../../locales/fr.json'
+
 import CodeBlock from "../CodeBlock";
 
 const Steps = () => {
@@ -11,7 +12,7 @@ const Steps = () => {
     const t = useT()
 
     return (
-        <>
+        <div className="space-y-12 container mx-auto px-4">
             <div className="space-y-3">
                 <div className="text-xl sm:text-2xl font-bold">
                     1. {t("guide.create")}
@@ -73,7 +74,7 @@ const Steps = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

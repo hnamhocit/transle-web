@@ -1,8 +1,8 @@
 ---
-import Header from "../components/Header";
-import {initI18n} from "transle";
+import "../styles/global.css"
 
-await initI18n(["vi", "en", "fr"])
+import Header from "../components/Header";
+import Provider from "../components/Provider";
 ---
 
 <html lang="en">
@@ -15,7 +15,7 @@ await initI18n(["vi", "en", "fr"])
 </head>
 <body>
 <div class="min-h-screen w-full relative">
-    <Header/>
+    <Header client:load/>
 
     <div
             class="absolute inset-0 -z-10"
@@ -30,7 +30,9 @@ await initI18n(["vi", "en", "fr"])
             }}
     />
 
-    <slot/>
+    <Provider client:load>
+        <slot/>
+    </Provider>
 </div>
 </body>
 </html>

@@ -6,7 +6,7 @@ const Hero = () => {
     const t = useT()
 
     return (
-        <div className="text-center flex flex-col items-center gap-4">
+        <div className="text-center flex flex-col items-center gap-4 my-12">
             <div className="text-4xl sm:text-5xl font-bold">TRANSLE</div>
 
             <div className="font-semibold text-xl sm:text-2xl">
