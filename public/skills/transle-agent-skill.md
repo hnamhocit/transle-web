@@ -6,8 +6,10 @@ Use this when implementing internationalization with `@hnamhocit/transle`.
 
 - Use `createI18n` from `@hnamhocit/transle` for vanilla JavaScript or TypeScript.
 - Use `createI18n` from `@hnamhocit/transle/react` for React apps.
+- Use `defineMessages({ en, vi, ... })` when locales come from separate files.
+- Use `defineLocale(...)` in per-locale TS files when you want typed locale modules.
 - Keep locale messages nested and access them with dot-path keys like `auth.signIn`.
-- JSON message files are valid if the app imports them as objects.
+- JSON locale files should contain a single locale object per file.
 - Always define `defaultLocale`.
 - Prefer defining `fallbackLocale` when product copy must not disappear on missing keys.
 - Use `persist: true` or `persist: { key: "..." }` when locale should survive reloads.
@@ -18,23 +20,14 @@ Use this when implementing internationalization with `@hnamhocit/transle`.
 ## Starter
 
 ```ts
-import { createI18n } from "@hnamhocit/transle";
+import { createI18n, defineMessages } from "@hnamhocit/transle";
+import en from "./locales/en";
+import vi from "./locales/vi";
 
 export const i18n = createI18n({
   defaultLocale: "en",
   fallbackLocale: "en",
   persist: true,
-  messages: {
-    en: {
-      common: {
-        hello: "Hello {name}",
-      },
-    },
-    vi: {
-      common: {
-        hello: "Xin chao {name}",
-      },
-    },
-  },
+  messages: defineMessages({ en, vi }),
 });
 ```

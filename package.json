@@ -13,7 +13,7 @@
     "@astrojs/sitemap": "^3.6.0",
     "@fontsource/source-code-pro": "^5.2.6",
     "@fontsource/space-grotesk": "^5.2.8",
-    "@hnamhocit/transle": "file:../lib",
+    "@hnamhocit/transle": "0.0.4",
     "astro": "^5.14.0",
     "motion": "^12.38.0",
     "react": "^19.2.5",
