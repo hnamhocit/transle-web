@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://transle.dev/sitemap-index.xml

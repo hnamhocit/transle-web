@@ -1,0 +1,22 @@
+{
+  "name": "transle-web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/react": "^5.0.4",
+    "@astrojs/sitemap": "^3.6.0",
+    "@fontsource/source-code-pro": "^5.2.6",
+    "@fontsource/space-grotesk": "^5.2.8",
+    "@hnamhocit/transle": "file:../lib",
+    "astro": "^5.14.0",
+    "motion": "^12.38.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}

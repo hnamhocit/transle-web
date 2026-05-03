@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8f4eb" />
+      <stop offset="100%" stop-color="#efe4d0" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" rx="32" />
+  <circle cx="172" cy="158" r="118" fill="#99f6e4" opacity=".72" />
+  <circle cx="1002" cy="124" r="88" fill="#fdba74" opacity=".64" />
+  <rect x="84" y="94" width="1032" height="442" rx="32" fill="#fffaf2" stroke="#d9cdb8" />
+  <text x="132" y="240" fill="#115e59" font-family="Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="4">TYPESCRIPT-FIRST I18N TOOLKIT</text>
+  <text x="132" y="340" fill="#1d170f" font-family="Arial, sans-serif" font-size="86" font-weight="700">transle</text>
+  <text x="132" y="416" fill="#645748" font-family="Arial, sans-serif" font-size="34">Ship multilingual web apps faster with tiny typed i18n.</text>
+  <text x="132" y="494" fill="#0f766e" font-family="Courier New, monospace" font-size="28">createI18n() • dot-path keys • React hook • fallback locale</text>
+</svg>
