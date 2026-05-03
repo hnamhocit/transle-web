@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://transle.dev/sitemap-index.xml
+Sitemap: https://transle.vercel.app/sitemap-index.xml

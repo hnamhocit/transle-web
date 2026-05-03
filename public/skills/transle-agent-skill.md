@@ -7,6 +7,7 @@ Use this when implementing internationalization with `@hnamhocit/transle`.
 - Use `createI18n` from `@hnamhocit/transle` for vanilla JavaScript or TypeScript.
 - Use `createI18n` from `@hnamhocit/transle/react` for React apps.
 - Keep locale messages nested and access them with dot-path keys like `auth.signIn`.
+- JSON message files are valid if the app imports them as objects.
 - Always define `defaultLocale`.
 - Prefer defining `fallbackLocale` when product copy must not disappear on missing keys.
 - Use `persist: true` or `persist: { key: "..." }` when locale should survive reloads.
